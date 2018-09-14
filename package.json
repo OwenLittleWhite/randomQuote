@@ -1,0 +1,33 @@
+{
+  "name": "randomquote",
+  "version": "1.0.0",
+  "description": "随机名言",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OwenLittleWhite/randomQuote.git"
+  },
+  "author": "Owen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OwenLittleWhite/randomQuote/issues"
+  },
+  "homepage": "https://github.com/OwenLittleWhite/randomQuote#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.0.1",
+    "restify-errors": "^5.0.0",
+    "restify-router": "^0.4.2"
+  }
+}
